@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>联系我们</title>
+        <link rel="stylesheet" href="../style/common.css">
+        <script src="../js/commons/jquery-1.7.2.min.js"></script>
+        <script>
+            $(function () {
+                $/*(".header_left ul li").on("click",function () {
+
+                   var s = $(this).index();
+
+                   $(this)
+                       .addClass("on")
+                       .siblings()
+                       .removeClass("on");
+
+                   $(".header_right .bd")
+                       .eq(s)
+                       .addClass("on")
+                       .siblings()
+                       .removeClass("on");
+               });*/
+
+
+                $(".header_box ul li").on("click",function () {
+                    if($(this).hasClass("on")){ // 如果有on   表示我现在是减号，点击的时候，我应该变成加号
+                        $(this).removeClass('on');
+                    }else{ // 如果没有on   表示我现在是加号，点击的时候，我应该变成减号
+                        $(this).addClass('on');
+                    }
+                });
+            });
+        </script>
+
+    </head>
+    <body style="position: relative;">
+        <!--头部-->
+        <div class="header">
+            <div class="header1 clearfix">
+                <div class="header_left fl">
+                    <img src="../images/shouye/logo.png" alt="">
+                    <p>君如健康管理有限公 <br>Jun Health Management Co. Ltd</p>
+                </div>
+                <div class="header_right fl">
+                    <ul class="clearfix">
+                        <li><a href="../index/shouye.html">首页</a></li>
+                        <li><a href="../index/zoujinjunru.html">关于君如</a></li>
+                        <li><a href="xinwenzhongxin-3.html">新闻中心</a></li>
+                        <li><a href="yingxiaozhongxin.html">市场营销</a></li>
+                        <li><a href="jiarujunru.html">求贤纳才</a></li>
+                        <li class="on"><a href="lianxiwomen.html">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--banner-->
+        <div class="banner" style="height: 300px;">
+            <ul class="bd">
+                <a href=""><li class="on"><img style="height: 300px;" src="../images/shouye/26.png" alt=""></li></a>
+            </ul>
+        </div>
+        <div class="comWidth us">
+            <div class="title" style="margin-bottom: 50px;">
+                <h2>联系我们</h2>
+                <span>Brief introduction of company</span>
+            </div>
+            <ul>
+                <li>浙江君如健康管理有限公司是一家以创新性的生物靶向物质为核心，聚焦分子医学和再生医学领域的新型医疗健康管理公司。</li>
+                <li>靶向细胞治疗技术是公司和中国医药城生物诊断与免疫治疗中心及2014年杭州高新开发区“5050”项目支持下完成的高新技术。</li>
+                <li>公司由国内著名分子生物免疫专家闫小军教授牵头，中国医药城生物诊断与免疫治疗中心提供支持，立足于再生医学和转化医学领域，以国际前沿的生物医药新技术、新方法新材料为产业基础，开展亚健康芯片检测、生物免疫治疗，治疗性宫颈癌疫苗系统及干细胞抗衰老美容等服务。</li>
+            </ul>
+            <ol>
+                <li>
+                    <h2>地址</h2>
+                    <p>浙江省杭州市滨江区建业路511号华业大厦21楼</p>
+                </li>
+                <li>
+                    <h2>联系电话</h2>
+                    <p>电话：400-1100606</p>
+                </li>
+                <li>
+                    <h2>QQ客服</h2>
+                    <p>260117804</p>
+                </li>
+                <li>
+                    <h2>邮箱</h2>
+                    <p>zjjaswkj@163.com</p>
+                </li>
+            </ol>
+        </div>
+        <!--公共的底部-->
+        <div class="footer">
+            <div class="comWidth" style="text-align: center;">
+                <h2>君如（浙江）健康管理有限公司</h2>
+                <ul class="clearfix">
+                    <li><a href="">地址：浙江省杭州市滨江区建业路511号华业大厦21楼</a></li>
+                    <li style="margin-right: 135px;"><a href="">电话：400-1100606 </a></li>
+                    <li><a href="">邮箱：zjjaswkj@163.com</a></li>
+                    <li><a href="">QQ客服：260117804</a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

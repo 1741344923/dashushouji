@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>加入君如</title>
+        <link rel="stylesheet" href="../style/common.css">
+        <script src="../js/commons/jquery-1.7.2.min.js"></script>
+        <script>
+           $(function () {
+               $/*(".header_left ul li").on("click",function () {
+
+                   var s = $(this).index();
+
+                   $(this)
+                       .addClass("on")
+                       .siblings()
+                       .removeClass("on");
+
+                   $(".header_right .bd")
+                       .eq(s)
+                       .addClass("on")
+                       .siblings()
+                       .removeClass("on");
+               });*/
+
+
+               $(".header_box ul li").on("click",function () {
+                   if($(this).hasClass("on")){ // 如果有on   表示我现在是减号，点击的时候，我应该变成加号
+                       $(this).removeClass('on');
+                   }else{ // 如果没有on   表示我现在是加号，点击的时候，我应该变成减号
+                       $(this).addClass('on');
+                   }
+               });
+           });
+       </script>
+
+    </head>
+    <body style="position: relative;">
+        <!--头部-->
+        <div class="header">
+            <div class="header1 clearfix">
+                <div class="header_left fl">
+                    <img src="../images/shouye/logo.png" alt="">
+                    <p>君如健康管理有限公 <br>Jun Health Management Co. Ltd</p>
+                </div>
+                <div class="header_right fl">
+                    <ul class="clearfix">
+                        <li><a href="../index/shouye.html">首页</a></li>
+                        <li><a href="../index/zoujinjunru.html">关于君如</a></li>
+                        <li class="on"><a href="xinwenzhongxin-3.html">新闻中心</a></li>
+                        <li><a href="yingxiaozhongxin.html">市场营销</a></li>
+                        <li><a href="jiarujunru.html">求贤纳才</a></li>
+                        <li><a href="lianxiwomen.html">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--banner-->
+        <div class="banner">
+            <ul class="bd">
+                <li class="on"><img src="../images/shouye/1.png" alt=""></li>
+            </ul>
+        </div>
+        <!---->
+        <div class="talent">
+            <div class="talent_top clearfix">
+                <div class="talent_left">
+                    <div class="zhongxin" style="width: 347px; height: 284px; background-color: #262626; color: #ffffff; text-align: center; font-size: 34px;">
+                        <span style="padding-top: 80px; display: block;">求贤纳才</span>
+                        <p style="color: red; font-size: 30px;">Career</p>
+                    </div>
+                    <ul>
+                        <li class="on"><a href="">企业合作</a></li>
+                        <li><a href="">社会招聘</a></li>
+                    </ul>
+                </div>
+                <div class="talent_right">
+                    <div style="margin-bottom: 30px;">
+                        <span style="font-size: 28px; color: green; border-bottom: none; margin-right: 5px;">社会招聘</span>
+                        <em style="width: 480px; font-size: 16px; border-bottom: 1px solid #dddddd; display: inline-block;">Marketing concept</em>
+                    </div>
+                    <img src="../images/20.png" alt="">
+                    <img class="img1" src="../images/21.png" alt="">
+                    <div class="header_box bd on">
+                        <ul>
+                            <li class="on">
+                                <a>我们是谁</a>
+                                <div>
+                                    <ul>
+                                        <li>招聘岗位：职位名称</li>
+                                        <li>2.职责内容描述</li>
+                                        <li>招聘人数：2人</li>
+                                        <li>学历：本科及以上</li>
+                                        <li>工作年限：2年</li>
+                                        <li>专业要求：专业名称</li>
+                                        <li>任职要求：要求填写要求填写要求填写</li>
+                                        <li>岗位职责：</li>
+                                        <li>1.职责内容描述职责内容描述职责内容描述职责内容描述</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a>信赖我们的理由</a>
+                                <div>
+                                    <ul>
+                                        <li>招聘岗位：职位名称</li>
+                                        <li>2.职责内容描述</li>
+                                        <li>招聘人数：2人</li>
+                                        <li>学历：本科及以上</li>
+                                        <li>工作年限：2年</li>
+                                        <li>专业要求：专业名称</li>
+                                        <li>任职要求：要求填写要求填写要求填写</li>
+                                        <li>岗位职责：</li>
+                                        <li>1.职责内容描述职责内容描述职责内容描述职责内容描述</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a>联系我们</a>
+                                <div>
+                                    <ul>
+                                        <li>招聘岗位：职位名称</li>
+                                        <li>2.职责内容描述</li>
+                                        <li>招聘人数：2人</li>
+                                        <li>学历：本科及以上</li>
+                                        <li>工作年限：2年</li>
+                                        <li>专业要求：专业名称</li>
+                                        <li>任职要求：要求填写要求填写要求填写</li>
+                                        <li>岗位职责：</li>
+                                        <li>1.职责内容描述职责内容描述职责内容描述职责内容描述</li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!--公共的底部-->
+        <div class="footer">
+            <div class="comWidth" style="text-align: center;">
+                <h2>君如（浙江）健康管理有限公司</h2>
+                <ul class="clearfix">
+                    <li><a href="">地址：浙江省杭州市滨江区建业路511号华业大厦21楼</a></li>
+                    <li style="margin-right: 135px;"><a href="">电话：400-1100606 </a></li>
+                    <li><a href="">邮箱：zjjaswkj@163.com</a></li>
+                    <li><a href="">QQ客服：260117804</a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
