@@ -42,8 +42,17 @@ gulp
     - package-lock.json
     - readme.md
 5. 新建一个目录名字必须是 project
-6. zai 
-6. 把你的代码都写到project这个目录里
+6. 在这个目录下再新建一个目录   这个目录用来放你的项目例如junru
+7. 如果你是用scss就安装依赖 开gulp pc也可以使用scss 不用就算了
+8. 写完之后把你的junru目录给别人就行了
+
+
+# 提交git
+```
+    git add .
+    git commit -m xxx
+    git push
+```
 
 
 
