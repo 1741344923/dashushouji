@@ -12,7 +12,8 @@
   .shiye .bd h3 {
     text-align: left; }
   .shiye .bd p {
-    text-align: left; }
+    text-align: left;
+    overflow: hidden; }
   .shiye .bd img {
     width: 3.75rem;
     height: 3.90625rem;
