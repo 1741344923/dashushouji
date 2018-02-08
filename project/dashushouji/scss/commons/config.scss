@@ -1,0 +1,4 @@
+/*px转rem 640是设计图的宽度  */
+@function px2rem($px,$psd:640) {
+    @return $px / $psd * 10rem;
+}

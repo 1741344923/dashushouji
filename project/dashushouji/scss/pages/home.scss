@@ -1,0 +1,144 @@
+@import "../commons/config";
+/*这个配置以后写scss是必须引入的,px2rem函数我写这里面了*/
+
+/* 这是首页的scss 其实就是css 等会通过工具可以生成到css文件夹里面*/
+
+/* 如果我写的scss不规范。。就会报错。。报错会导致gulp中断  。。中断会导致生成不了最新的css..需要修改代码。。并重新运行gulp命令 */
+
+/* 现在就对了。你看css文件夹也出来了 看看html*/
+
+/* 现在样式也对了。。如果我修改首页的scss。。他会自动生成css css里面的内容和这里面的一样。。。并会自动补全。。兼容 */
+
+/* 如果我写错了。。gulp命令会中断。。。导致生成不了css..例如我少带了括号然后保存 */
+/* 中断了..我改成正确之后。。需要重新运行gulp*/
+/* 现在我就可以接着写了。。我写了一个函数px2rem   帮我计算像素转成rem*/
+
+
+/*关于我们*/
+.about {
+    text-align: center;
+    margin-bottom: px2rem(38);
+}
+
+.about h2 {
+    height: px2rem(90);
+    line-height: px2rem(90);
+    font-size: px2rem(36);
+    color: #2a2a2a;
+    font-weight: bold;
+    position: relative;
+}
+
+.about h2:after {
+    content: '';
+    width: px2rem(74);
+    height: px2rem(3);
+    background-color: #58215b;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: px2rem(-37);
+}
+
+/*了解更多*/
+.understand {
+    width: px2rem(640);
+    background-color: #f3f3f3;
+    padding: px2rem(25) px2rem(24);
+    font-size: px2rem(24);
+    margin-top: px2rem(70);
+    text-align: center;
+}
+
+.understand p {
+    color: #888888;
+    text-indent: 2em;
+    line-height: px2rem(30);
+    text-align: left;
+}
+
+.understand a {
+    width: px2rem(143);
+    height: px2rem(34);
+    line-height: px2rem(34);
+    background-color: #58215b;
+    color: #ffffff;
+    font-size: px2rem(24);
+    display: inline-block;
+    text-align: center;
+    border-radius: px2rem(15);
+    margin-top: px2rem(23);
+}
+
+.introduce .bd dl {
+    height: px2rem(260);
+    display: none;
+}
+
+.introduce .bd dl.on {
+    display: block;
+}
+
+.introduce .bd dl dt {
+    width: px2rem(287);
+    float: left;
+}
+
+.introduce .bd dl dt img {
+    width: px2rem(177);
+    height: px2rem(180);
+    margin-left: px2rem(65);
+}
+
+.introduce .bd dl dd {
+    width: px2rem(353);
+    float: left;
+    text-indent: 2em;
+    font-size: px2rem(24);
+    color: #a4a4a4;
+    padding-right: px2rem(23);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+}
+
+.banner_box {
+    /* scss还可以这样写,他会帮你生成对应的css  你刚刚的问题是你布局没写好,应该再套一层 */
+    /* scss还可以定义变量 */
+    $w: 592;
+    width: px2rem($w);
+    height: px2rem(384);
+    margin: px2rem(80) auto 0;
+    .hd{
+        position: absolute;
+        bottom: px2rem(30);
+    }
+    .bd {
+        dl {
+            margin-bottom: px2rem(25);
+            display: none;
+        }
+        dl.on {
+            display: block;
+        }
+        dt img {
+            width: px2rem($w);
+            height: px2rem(220);
+        }
+        dd {
+            padding: px2rem(25) px2rem(15) px2rem(60);
+            box-shadow: 0 0 10px #a4a4a4;
+            .dd-div {
+                height: px2rem(60);
+                line-height: px2rem(30);
+                font-size: px2rem(24);
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+                text-indent: 2em;
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+@import "../commons/config";
+.shiye{
+    text-align: center;
+    .hd{
+        position: absolute;
+        bottom: px2rem(20);
+    }
+    .bd{
+        display: none;
+    }
+    .bd.on{
+        display: block;
+    }
+    .bd h3{
+        text-align: left;
+    }
+    .bd p{
+        text-align: left;
+        overflow: hidden;
+    }
+    .bd img{
+        width: px2rem(240);
+        height: px2rem(250);
+        display: inline-block;
+        margin-top: px2rem(60);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

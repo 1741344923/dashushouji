@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*px转rem 640是设计图的宽度  */
+.lianxiwomen {
+  padding-left: 0.96875rem;
+  padding-right: 0.95313rem; }
+  .lianxiwomen h2 {
+    font-size: 0.75rem; }
+  .lianxiwomen h3 {
+    font-size: 0.59375rem; }
+  .lianxiwomen p {
+    font-size: 0.40625rem;
+    line-height: 0.59375rem; }
+    .lianxiwomen p img {
+      width: 0.84375rem;
+      height: 0.75rem; }

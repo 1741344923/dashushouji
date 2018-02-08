@@ -1,0 +1,83 @@
+@import "../commons/config";
+
+.nrong {
+
+    font-size: px2rem(26);
+    ul li.on {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    ul li.nrong1 {
+        font-size: px2rem(36);
+        line-height: px2rem(140);
+    }
+    ul li {
+        line-height: px2rem(34);
+        padding-left: px2rem(20);
+        padding-right: px2rem(20);
+        border-bottom: 1px solid #a4a4a4;
+        padding-top: px2rem(30);
+
+        i {
+            height: px2rem(80);
+            line-height: px2rem(80);
+            display: block;
+            font-style: normal;
+            color: #cfcfcf;
+        }
+
+        div {
+            span {
+                display: inline-block;
+                width: px2rem(200);
+                height: px2rem(98);
+                background-color: #a4a4a4;
+                float: left;
+            }
+            em {
+                display: inline-block;
+                width: px2rem(400);
+                float: left;
+                font-style: normal;
+                padding-left: px2rem(51);
+            }
+        }
+
+    }
+    a {
+        width: px2rem(592);
+        height: px2rem(48);
+        background-color: #cfcfcf;
+        display: block;
+        font-size: px2rem(24);
+        color: #00adef;
+        text-align: center;
+        line-height: px2rem(48);
+        margin: px2rem(20) auto px2rem(20);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,94 @@
+@import "../commons/config";
+
+.online{
+    form{
+        margin-top: px2rem(35);
+        margin-bottom: px2rem(35);
+        p{
+            margin-bottom: px2rem(20);
+            em{
+                width: px2rem(182);
+                text-align: right;
+                display: inline-block;
+                font-size: px2rem(36);
+                font-style: normal;
+                margin-right: px2rem(40);
+                vertical-align: middle;
+            }
+            input{
+                width: px2rem(350);
+                height: px2rem(36);
+                vertical-align: middle;
+            }
+            textarea{
+                width: px2rem(350);
+                height: px2rem(251);
+            }
+        }
+        div{
+            color: red;
+            text-align: center;
+            height: px2rem(92);
+            line-height: px2rem(92);
+            span{
+                color: #767676;
+                font-size: px2rem(24);
+            }
+            input{
+                width: px2rem(87);
+                height: px2rem(28);
+                margin: 0 px2rem(20);
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

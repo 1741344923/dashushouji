@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*px转rem 640是设计图的宽度  */
+.core .bd ul {
+  margin-bottom: 1.01563rem; }
+
+.core .bd ul li {
+  text-align: center; }
+
+.core .bd ul li img {
+  width: 7.8125rem;
+  height: 4.6875rem; }
