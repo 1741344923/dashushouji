@@ -1,5 +1,5 @@
 {
-    "name": "dashushouji",
+    "name": "zmm.phone",
     "version": "1.0.0",
     "description": "",
     "main": "",
@@ -8,14 +8,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zhouhuafei/dashushouji.git"
+        "url": "git+https://github.com/zhouhuafei/zmm.phone.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/zhouhuafei/dashushouji/issues"
+        "url": "https://github.com/zhouhuafei/zmm.phone/issues"
     },
-    "homepage": "https://github.com/zhouhuafei/dashushouji#readme",
+    "homepage": "https://github.com/zhouhuafei/zmm.phone#readme",
     "devDependencies": {
         "babel-eslint": "^8.0.2",
         "babel-preset-env": "^1.6.0",
