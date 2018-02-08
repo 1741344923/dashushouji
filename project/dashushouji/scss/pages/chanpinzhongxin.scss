@@ -1,0 +1,42 @@
+@import "../commons/config";
+
+.shiye{
+    h2{
+        color: #00adef;
+        height: px2rem(62);
+        line-height: px2rem(62);
+        font-size: px2rem(26);
+        margin-top: px2rem(26);
+        text-align: center;
+        border-top: 1px solid #00adef;
+    }
+    .shiye1{
+        padding-left: px2rem(24);
+        margin-bottom: px2rem(60);
+        h3{
+            color: #333333;
+            font-size: px2rem(28);
+        }
+        p{
+            font-size: px2rem(24);
+            color: #333333;
+            line-height: px2rem(48);
+            height: px2rem(48);
+        }
+        em{
+            font-style: normal;
+            color: red;
+        }
+    }
+}
+.shiye_box{
+
+    height: px2rem(240);
+    .bd ul li{
+        text-align: center;
+    }
+    .bd ul li img{
+        width: px2rem(594);
+        height: px2rem(186);
+    }
+}
